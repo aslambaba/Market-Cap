@@ -1,0 +1,20 @@
+.stockLine{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 10px 20px;
+}
+.stockLine p{
+    font-size: 14px;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stockLine p i{
+    font-style: normal;
+}
+.green{
+    color: green !important;
+}
+.red{
+    color:red !important;
+}
