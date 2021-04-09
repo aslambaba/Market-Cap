@@ -1,0 +1,50 @@
+.CoinBody{
+    margin: 5px 0px;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 10px;
+    background-color: white;
+}
+.CoinICON{
+    margin: 0 5px;
+    display: inline-block;
+    width: 5%;
+}
+.CoinSYB{
+    margin: 0 5px;
+    display: inline-block;
+    width: 5%;
+}
+.CoinNAME{
+    margin: 0 5px;
+    display: inline-block;
+    width: 10%;
+}
+.CoinPRICE{
+    margin: 0 5px;
+    display: inline-block;
+    width: 10%;
+}
+.Coin24DG,.Coin7DG{
+    margin: 0 5px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: green;
+}
+.Coin24DR,.Coin7DR{
+    margin: 0 5px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+.CoinMC{
+    margin: 0 5px;
+    display: inline-block;
+    width: 20%;
+}
+.CoinSER{
+    margin: 0 5px;
+    display: inline-block;
+    width: 20%;
+}
