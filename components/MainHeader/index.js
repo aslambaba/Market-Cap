@@ -10,11 +10,6 @@ export default function MainHeader() {
                 <div className={styles.search}>
                     <input placeholder='Search' />
                 </div>
-                <div className={styles.accounts}>
-                    <button>
-                        M
-                </button>
-                </div>
             </div>
         </div>
     )
