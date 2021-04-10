@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import MainHeader from '../components/MainHeader'
 import StockLine from '../components/StockLine'
+import Footer from '../components/Footer'
 import Coin from '../components/Coin'
 import styles from '../styles/Home.module.css'
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Coin />
         <Coin />
       </div>
+      <Footer/>
     </div>
   )
 }
