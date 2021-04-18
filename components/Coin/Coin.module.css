@@ -9,6 +9,11 @@
     margin: 0 5px;
     display: inline-block;
     width: 5%;
+    text-align: right;
+    vertical-align: middle;
+}
+.CoinICON img{
+    height: 25px;
 }
 .CoinSYB{
     margin: 0 5px;
@@ -18,33 +23,35 @@
 .CoinNAME{
     margin: 0 5px;
     display: inline-block;
-    width: 10%;
+    width: 15%;
 }
 .CoinPRICE{
     margin: 0 5px;
     display: inline-block;
-    width: 10%;
+    width: 15%;
 }
 .Coin24DG,.Coin7DG{
     margin: 0 5px;
     display: inline-block;
-    width: 10%;
-    text-align: center;
+    width: 5%;
+    text-align: left;
     color: green;
 }
 .Coin24DR,.Coin7DR{
     margin: 0 5px;
     display: inline-block;
-    width: 10%;
-    text-align: center;
+    width: 5%;
+    text-align: left;
 }
 .CoinMC{
     margin: 0 5px;
     display: inline-block;
     width: 20%;
+    text-align: center;
 }
 .CoinSER{
     margin: 0 5px;
     display: inline-block;
     width: 20%;
+    text-align: center;
 }

@@ -2,8 +2,8 @@ import styles from './Coin.module.css'
 export default function Coin({CoinData}){
     return(
         <div className={styles.CoinBody}>
-            <div className={styles.CoinICON}></div>
-            <div className={styles.CoinSYB}>{CoinData.symbol}</div>
+            <div className={styles.CoinICON}><img src={CoinData.image}></img></div>
+            <div className={styles.CoinSYB}>{CoinData.symbol.toUpperCase()}</div>
             <div className={styles.CoinNAME}>{CoinData.name}</div>
             <div className={styles.CoinPRICE}>{CoinData.current_price} USD</div>
             <div className={styles.Coin24DG}>4.37%</div>
