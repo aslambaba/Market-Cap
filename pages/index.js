@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import MainHeader from '../components/MainHeader'
 import StockLine from '../components/StockLine'
 import Footer from '../components/Footer'
@@ -21,7 +22,11 @@ export default function Home({ result }) {
         {
           result.map((coin) => {
             return (
-              <Coin CoinData={coin} />
+              <Link href={`/Coin/${coin.id}`}>
+                <a>
+                  <Coin CoinData={coin} />
+                </a>
+              </Link>
             )
           })
         }
@@ -35,6 +40,25 @@ export const getServerSideProps = async (context) => {
 
   const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false');
   const result = await res.json();
+
+  // You Can Use This Variable if you not want to use API
+  // const result = [
+  //   {
+  //     symbol: "BTC",
+  //     name: "Bitcoin",
+  //     current_price: 100,
+  //     market_cap: 12222,
+  //     circulating_supply: 1292783,
+  //   },
+  //   {
+  //     symbol: "BTC",
+  //     name: "Bitcoin",
+  //     current_price: 100,
+  //     market_cap: 12222,
+  //     circulating_supply: 1292783,
+  //   }
+  // ]
+
 
   if (!result) {
     return {

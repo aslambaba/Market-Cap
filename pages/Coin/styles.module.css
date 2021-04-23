@@ -1,0 +1,38 @@
+.SingleCoinContainer{
+    padding: 20px 20px;
+    background-color: white;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+.CoinName{
+    width: 40%;
+    display: inline-block;
+}
+.CoinName h2{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.CoinPrice{
+    text-align: right;
+    width: 60%;
+    display: inline-block;
+}
+.CoinInfo{
+    width: 70%;
+    display: inline-block;
+}
+.CoinNews{
+    width: 30%;
+    display: inline-block;
+    padding: 30px 20px;
+}
+.News{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.News p{
+    margin: 0;
+    font-size: 13px;
+}
