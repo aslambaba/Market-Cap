@@ -13,7 +13,7 @@ export default function Home({ result }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>MArket Cap</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainHeader />
@@ -38,10 +38,11 @@ export default function Home({ result }) {
 
 export const getServerSideProps = async (context) => {
 
-  const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false');
+  const res = await fetch(`https://api.nomics.com/v1/currencies/ticker?key=${process.env.NEXT_PUBLIC_APIKEY}&interval=1d,7d&convert=USD&per-page=100&page=1`);
   const result = await res.json();
-
-  // You Can Use This Variable if you not want to use API
+  // console.log(result);
+  
+  //You Can Use This Variable if you not want to use API
   // const result = [
   //   {
   //     symbol: "BTC",

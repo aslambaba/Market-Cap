@@ -4,54 +4,45 @@
     border-radius: 4px;
     padding: 20px 10px;
     background-color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1.5fr 1.5fr 1fr 1fr 2fr 2fr;
 }
 .CoinICON{
     margin: 0 5px;
-    display: inline-block;
-    width: 5%;
     text-align: right;
     vertical-align: middle;
 }
 .CoinICON img{
-    height: 25px;
+    height: 24px;
 }
 .CoinSYB{
     margin: 0 5px;
-    display: inline-block;
-    width: 5%;
 }
 .CoinNAME{
     margin: 0 5px;
-    display: inline-block;
-    width: 15%;
 }
 .CoinPRICE{
+    padding-right: 15px;
+    text-align: right;
     margin: 0 5px;
-    display: inline-block;
-    width: 15%;
 }
-.Coin24DG,.Coin7DG{
+.Coin1DG,.Coin7DG{
     margin: 0 5px;
-    display: inline-block;
-    width: 5%;
-    text-align: left;
+    text-align: right;
     color: green;
 }
-.Coin24DR,.Coin7DR{
+.Coin1DR,.Coin7DR{
     margin: 0 5px;
-    display: inline-block;
-    width: 5%;
-    text-align: left;
+    text-align: right;
+    color: red;
 }
 .CoinMC{
+    padding-right: 15px;
     margin: 0 5px;
-    display: inline-block;
-    width: 20%;
-    text-align: center;
+    text-align: right;
 }
 .CoinSER{
+    padding-right: 15px;
     margin: 0 5px;
-    display: inline-block;
-    width: 20%;
-    text-align: center;
+    text-align: right;
 }
